@@ -1,4 +1,4 @@
-package command;
+package command_DesignPattern;
 
 import java.io.File;
 import java.io.FileWriter;

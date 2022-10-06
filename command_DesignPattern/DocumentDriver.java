@@ -1,4 +1,4 @@
-package command;
+package command_DesignPattern;
 
 import java.util.Scanner;
 
