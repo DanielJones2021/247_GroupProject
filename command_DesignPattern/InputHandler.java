@@ -11,9 +11,6 @@ public class InputHandler {
   }
   
   public void inputEntered(String data) {
-    if(commands.containsKey(Data))
-      commands.get(data).execute();
-    else
         System.out.println("Command not known.");
   }
 }
