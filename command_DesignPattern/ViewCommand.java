@@ -5,7 +5,7 @@ import javax.sound.sampled.Line;
 public class ViewCommand extends Command{
 
     public ViewCommand(Document doc){
-        super();
+        super(doc);
     }
 
     public String execute(){
