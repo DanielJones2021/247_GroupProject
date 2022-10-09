@@ -12,7 +12,15 @@ public class Document {
     }
 
     public String view(){
-        return ;
+        String storedList ="";
+        for(String line: lines){
+            storedList = storedList +"\n|     "+ line+ "     |";
+
+        }
+        String viewDoc ="____________________"
+                    + storedList 
+                    +"____________________";
+        return viewDoc;
     }
 
     public String append(String line){

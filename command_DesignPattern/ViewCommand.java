@@ -9,8 +9,7 @@ public class ViewCommand extends Command{
     }
 
     public String execute(){
-        document.view();
-        return "Not sure what needs to be returned here";
+        return document.view();
     }
     
 }
