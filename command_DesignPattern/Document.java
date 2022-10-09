@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Document {
 
     private String filename;
-    private ArrayList<String> lines;
+    private ArrayList<String> lines = new ArrayList<String>();
 
     public Document(String FileName){
         FileManipulator.readFile(FileName);
@@ -17,9 +17,9 @@ public class Document {
             storedList = storedList +"\n|     "+ line+ "     |";
 
         }
-        String viewDoc ="____________________"
+        String viewDoc ="_________________"
                     + storedList 
-                    +"____________________";
+                    +"\n_________________";
         return viewDoc;
     }
 
