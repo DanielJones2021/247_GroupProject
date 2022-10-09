@@ -3,11 +3,11 @@ package command_DesignPattern;
 public class SaveCommand extends Command{
 
     public SaveCommand(Document doc){
-        super();
+        super(doc);
     }
 
     public String execute(){
-        return ;
+        return document.save();
     }
     
 }
