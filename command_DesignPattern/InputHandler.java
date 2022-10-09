@@ -1,3 +1,5 @@
+package command_DesignPattern;
+
 import java.util.HashMap;
 
 public class InputHandler {
@@ -5,7 +7,7 @@ public class InputHandler {
   
   public InputHandler(Document document) {
     commands.put("view", new ViewCommand(document));
-    commands.put("save", new SaveCommand(docment));
+    commands.put("save", new SaveCommand(document));
     commands.put("append", new AppendCommand(document));
     commands.put("write", new WriteCommand(document));
   }
