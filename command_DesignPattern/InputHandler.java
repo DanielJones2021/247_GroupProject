@@ -13,6 +13,10 @@ public class InputHandler {
   }
   
   public void inputEntered(String data) {
-        System.out.println("Command not known.");
-  }
+    if(commands.containsKey(data) == false){
+      System.out.println("Command not recognized.");
+      return;
+    }
+    commands.get(data).execute();
+}
 }

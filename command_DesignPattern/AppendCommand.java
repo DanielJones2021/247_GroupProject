@@ -10,7 +10,9 @@ public class AppendCommand extends Command{
         super(doc);
     }
     public String execute(){
-        return ;
+        System.out.println("Enter Data:");
+        String line = in.nextLine();
+        return document.append(line);
     }
     
 }
