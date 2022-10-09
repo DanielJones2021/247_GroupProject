@@ -10,7 +10,9 @@ public class WriteCommand extends Command{
     }
 
     public String execute(){
-        return ;
+        System.out.println("Enter text:");
+        String line = in.nextLine();
+        return document.write(line);
     }
     
 }
