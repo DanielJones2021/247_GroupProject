@@ -18,7 +18,7 @@ public class Document {
 
         }
         String viewDoc ="_________________"
-                    + storedList 
+                    + "\n" + storedList 
                     +"\n_________________";
         return viewDoc;
     }
