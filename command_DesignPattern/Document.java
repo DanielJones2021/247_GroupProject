@@ -33,7 +33,6 @@ public class Document {
     public String write(String line){
         lines.removeAll(lines);
         lines.add(line);
-        System.out.println("The line was written to the file");
         return "The line was written to the file";
     }
     
