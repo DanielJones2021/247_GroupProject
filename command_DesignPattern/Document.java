@@ -8,6 +8,7 @@ public class Document {
     private ArrayList<String> lines = new ArrayList<String>();
 
     public Document(String FileName){
+        this.filename=FileName;
         FileManipulator.readFile(FileName);
     }
 
